@@ -32,8 +32,27 @@
         </div>
       </div>
       <div id="box_1">
-        <div class="form">
-          <h1>Aqui tera o formulario</h1>
+        <div id="form_box">
+          <h3>Preencha o formulário para receber os detalhes do evento</h3>
+          <div class="box_form">
+            <form action="">
+              <label for="name">Nome</label>
+              <input type="text" placeholder="Digite seu nome" />
+              <label for="email">E-mail</label>
+              <input type="text" placeholder="Digite seu melhor e-mail" />
+              <label for="Telefone">Telefone</label>
+              <input type="tel" placeholder="Número de Whatsapp" />
+              <label for="interesses">Principal interesse</label>
+              <select name="interesses" id="i_interesses">
+                <option value="" disabled selected>Selecione uma opção</option>
+                <option value="1">Posicionamento</option>
+                <option value="2">Aproveitamento de espaço</option>
+                <option value="3">Combinação de cores</option>
+                <option value="4">Organização</option>
+              </select>
+              <button type="submit">quero me inscrever</button>
+            </form>
+          </div>
         </div>
       </div>
     </header>
@@ -43,16 +62,25 @@
       </div>
       <div class="three-boxes">
         <div class="information-box">
-          <img class="box-image" src="./images/sqr-1.jpg" alt="image1">
-          <p>Alguma coisa muito legal, que vai fazer a diferença na vida do participante.</p>
+          <img class="box-image" src="./images/sqr-1.jpg" alt="image1" />
+          <p>
+            Alguma coisa muito legal, que vai fazer a diferença na vida do
+            participante.
+          </p>
         </div>
         <div class="information-box">
-          <img class="box-image" src="./images/sqr-2.jpg" alt="image1">
-          <p>Alguma coisa muito legal, que vai fazer a diferença na vida do participante.</p>
+          <img class="box-image" src="./images/sqr-2.jpg" alt="image1" />
+          <p>
+            Alguma coisa muito legal, que vai fazer a diferença na vida do
+            participante.
+          </p>
         </div>
         <div class="information-box">
-          <img class="box-image" src="./images/sqr-3.jpg" alt="image1">
-          <p>Alguma coisa muito legal, que vai fazer a diferença na vida do participante.</p>
+          <img class="box-image" src="./images/sqr-3.jpg" alt="image1" />
+          <p>
+            Alguma coisa muito legal, que vai fazer a diferença na vida do
+            participante.
+          </p>
         </div>
       </div>
     </main>
@@ -70,12 +98,16 @@
       <div id="box_1">
         <div class="info-location-2">
           <h1>Local de destaque</h1>
-          <p>O evento será realizado em um local prestigiado pelos amantes de Design de Interiores, onde teremos exemplos de vários ambientes, tanto internos como externos.</p>
+          <p>
+            O evento será realizado em um local prestigiado pelos amantes de
+            Design de Interiores, onde teremos exemplos de vários ambientes,
+            tanto internos como externos.
+          </p>
         </div>
       </div>
     </section>
     <section id="environments">
-      <img src="./images/hrz-3.jpg" alt="">
+      <img src="./images/hrz-3.jpg" alt="" />
       <h1>Conheça os ambientes que você vai aprender a decorar</h1>
     </section>
     <section id="content-learn">
@@ -90,10 +122,10 @@
             <li class="special">E muito mais...</li>
           </ul>
         </div>
-        <img src="./images/hrz-4.jpg" alt="">
+        <img src="./images/hrz-4.jpg" alt="" />
       </section>
       <section id="objects">
-        <img src="./images/hrz-5.jpg" alt="">
+        <img src="./images/hrz-5.jpg" alt="" />
         <div class="list">
           <h3>Objetos</h3>
           <ul>
@@ -107,6 +139,19 @@
         </div>
       </section>
     </section>
-    
+    <section id="enrollment">
+      <h2>Gostou? Então se inscreva:</h2>
+      <a href="#form_box">solicitar inscrição</a>
+    </section>
+    <footer id="evolution">
+      <div class="title-subtitle">
+        <h2>InDecor</h2>
+        <p>A evolução da decoração de interiores</p>
+      </div>
+      <div class="contact">
+        <p><span>Entre em contato:</span> oi@indecor.com.br</p>
+        <p><span>Ou pelo tefone:</span> (55)99990-9999</p>
+      </div>
+    </footer>
   </body>
 </html>
